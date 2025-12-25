@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="360dp"
+        android:height="80dp"
+        android:viewportWidth="360"
+        android:viewportHeight="80">
+
+        <!-- Wave 1 -->
+        <path
+            android:strokeWidth="3"
+            android:strokeColor="#FFC107"
+            android:fillColor="@android:color/transparent"
+            android:pathData="
+            M0,40
+            C30,20 60,60 90,40
+            C120,20 150,60 180,40
+            C210,20 240,60 270,40
+            C300,20 330,60 360,40" />
+
+        <!-- Wave 2 -->
+        <path
+            android:strokeWidth="2"
+            android:strokeColor="#FFB300"
+            android:fillColor="@android:color/transparent"
+            android:pathData="
+            M0,45
+            C30,30 60,50 90,45
+            C120,30 150,50 180,45
+            C210,30 240,50 270,45
+            C300,30 330,50 360,45" />
+    </vector>
+</selector>

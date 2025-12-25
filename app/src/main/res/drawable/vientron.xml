@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hình tròn nền -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2196F3" /> <!-- Màu xanh hoặc màu bạn muốn -->
+            <size android:width="40dp" android:height="40dp" />
+        </shape>
+    </item>
+    <!-- Icon người đè lên trên -->
+    <item
+        android:drawable="@drawable/outline_person_24"
+        android:top="8dp"
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp" />
+</layer-list>

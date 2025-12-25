@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Chức năng">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/outline_home_24"
+                    android:title="Trang chủ" />
+                <item
+                    android:id="@+id/nav_chitiet"
+                    android:icon="@drawable/outline_read_more_24"
+                    android:title="Chi tiết giấc ngủ" />
+                <item
+                    android:id="@+id/nav_trangthai"
+                    android:icon="@drawable/outline_search_activity_24"
+                    android:title="Trạng thái giấc ngủ" />
+                <item
+                    android:id="@+id/nav_lichsu"
+                    android:icon="@drawable/outline_history_24"
+                    android:title="Thống kê theo tuần tháng" />
+                <item
+                    android:id="@+id/nav_thongke"
+                    android:icon="@drawable/outline_table_chart_view_24"
+                    android:title="Biểu đồ giấc ngủ" />
+                <item
+                    android:id="@+id/nav_thongkemuctieu"
+                    android:icon="@drawable/outline_bar_chart_4_bars_24"
+                    android:title="Mục tiêu" />
+            </group>
+        </menu>
+    </item>
+    <!-- Nhóm chức năng phụ (Sẽ có đường kẻ ngang phân cách và nằm ở dưới) -->
+    <item android:title="Hệ thống">
+        <menu>
+            <item
+                android:id="@+id/btnSetting"
+                android:icon="@drawable/outline_settings_24"
+                android:title="Cài đặt (admin only)"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/outline_logout_24"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+</menu>
